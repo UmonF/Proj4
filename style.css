@@ -1,0 +1,223 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+p{
+	font-family: 'Josefin Sans';
+	margin: 10px;
+	box-sizing:border-box;
+}
+
+.column {
+	position:relative;
+	z-index:0;
+	height:100vh;
+	display:inline-block;
+	border-radius: 7px;
+}
+
+
+.banner{
+	height:100%;
+ 	display:flex;
+ 	flex-direction:column;
+ 	justify-content: space-between;
+ 	align-items:center;
+ 	text-align:center;
+}
+
+.banner>p{
+	margin-bottom:10vh;
+}
+
+.a{
+	background:#eecf89;
+}
+
+.b{
+	background:#cdb16a;
+}
+
+.c{
+	background:#ed885f;
+}
+
+.d{
+	background:#d54444;
+}
+
+.initial{
+	width:24.5%;
+	filter:sepia(100%);
+	opacity:.7;
+}
+
+.column:hover{
+	filter:grayscale(0%);
+	opacity:1;
+}
+
+.hide{
+	width:2.5%;
+	transition:.5s ease;
+}
+
+.show{
+	width:90.5%;
+	transition:.5s ease;
+}
+
+.graphic{
+	display:flex;
+	align-items:center;
+}
+
+.ming>.illust{
+	max-width:33%;
+}
+
+.illust{
+	max-width:40%;
+	max-height:auto;
+	position:absolute;
+	top:4vh;
+	right:30vw;
+}
+
+.hover:hover{
+	transform:scale(1.05);
+	transition:.2s;
+	cursor:pointer;
+}
+
+.han{
+	z-index:10;
+	visibility:hidden;
+	display:flex;
+}
+
+.tang{
+	z-index:10;
+	visibility:hidden;
+}
+
+.song{
+	z-index:20;
+	visibility:hidden;
+}
+
+.ming{
+	z-index:30;
+	visibility:hidden;
+}
+
+.info{
+	position:absolute;
+	width:35vw;
+	height:100px;
+	top:20vh;
+	display:none;
+	text-overflow: scroll;
+}
+
+.dynasty{
+	position:absolute;
+	width:15vw;
+	top:60vh;
+}
+
+div.dynasty{
+	top:35vh;
+	z-index:-5;
+	transform:rotate(90deg);
+	transform-origin:top;
+	font-size:3em;
+	width:30vw;
+	opacity:.5;
+	color:white;
+}
+
+.han>div.dynasty{
+	right:50vw;
+}
+.han>img.dynasty{
+	right:80vw;
+}
+
+.han>.info{
+	right:27vw;
+}
+
+.tang>.info{
+	right:20vw;
+}
+
+.tang>div.dynasty{
+	right:42vw;
+}
+.tang>img.dynasty{
+	right:77vw;
+}
+
+.song>.info{
+	right:45vw;
+}
+
+.song>div.dynasty{
+	right:14vw;
+}
+.song>img.dynasty{
+	right:9vw;
+}
+
+.ming>.info{
+	right:40vw;
+}
+
+.ming>div.dynasty{
+	right:10vw;
+}
+.ming>img.dynasty{
+	right:3vw;
+}
+
+.hidehome{
+	display:none;
+}
+
+.cloud{
+	cursor:pointer;
+}
+
+.cloud>img{
+	position:absolute;
+	bottom:0;
+	right:2%;
+	z-index:50;
+	width:18%;
+	opacity:.7;
+}
+
+.cloud>img:hover{
+	opacity:1;
+	transition:.2s;
+}
+
+.cloud>div{
+	font-family: 'Josefin Sans';
+	color:#4a4813;
+	position:absolute;
+	z-index:60;
+	right:6%;
+	bottom:5%;
+	font-size:1.5em;
+	display:none;
+}
+
+@media (max-width: 600px){
+	.info{
+		font-size:.5em;
+	}
+}
+
