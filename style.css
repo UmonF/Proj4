@@ -195,8 +195,8 @@ div.dynasty{
 	bottom:0;
 	right:2%;
 	z-index:50;
-	width:18%;
-	opacity:.7;
+	width:20%;
+	opacity:.8;
 }
 
 .cloud>img:hover{
@@ -213,6 +213,26 @@ div.dynasty{
 	bottom:5%;
 	font-size:1.5em;
 	display:none;
+}
+
+.credit>img{
+	font-family: 'Josefin Sans';
+	color:#4a4813;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:60;
+	opacity:.6;
+}
+
+.credit>div{
+		display:none;
+}
+.credit>div>p{
+	position:absolute;
+	z-index:65;
+	top:1.5%;
+	left:1.5%;
 }
 
 @media (max-width: 600px){
