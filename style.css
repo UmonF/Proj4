@@ -205,34 +205,17 @@ div.dynasty{
 }
 
 .cloud>div{
-	font-family: 'Josefin Sans';
-	color:#4a4813;
-	position:absolute;
-	z-index:60;
-	right:6%;
-	bottom:5%;
-	font-size:1.5em;
 	display:none;
 }
 
-.credit>img{
+.home{
 	font-family: 'Josefin Sans';
 	color:#4a4813;
 	position:absolute;
-	top:0;
-	left:0;
 	z-index:60;
-	opacity:.6;
-}
-
-.credit>div{
-		display:none;
-}
-.credit>div>p{
-	position:absolute;
-	z-index:65;
-	top:1.5%;
-	left:1.5%;
+	right:3%;
+	bottom:6%;
+	font-size:3em;
 }
 
 @media (max-width: 600px){

@@ -7,7 +7,6 @@ $(document).ready(function(){
 		$(this).removeClass('hide');
 		$('.banner>p').css('display','none');
 		$('.cloud').fadeIn(1500);
-		$('.credit').fadeIn(1500);
 	});
 	$('.column').click(function(){
 		$(this).removeClass('hide');
@@ -93,7 +92,6 @@ $(document).ready(function(){
 		$(".column").removeClass('show').removeClass('hide').addClass('initial');
 		$('.banner>p').css('display','block');
 		$('.cloud').fadeOut('fast');
-		$('.credit').fadeOut('fast');
 		for(i=0; i<chaodai.length; i++){
 			$(chaodai[i]).css('visibility',"hidden");
 			$(order[i]).css('visibility', 'visible');
